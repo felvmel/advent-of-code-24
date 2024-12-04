@@ -29,7 +29,7 @@ local function read_file(path)
   file:close()
 end
 
-read_file("01/input.txt");
+read_file("input.txt");
 table.sort(left_map)
 table.sort(right_map)
 
