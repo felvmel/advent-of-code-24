@@ -73,15 +73,7 @@ int main(int argc, char* argv[])
     int count = 0;
     for (const auto& line : lines)
     {
-        if (test_line(line) == 1)
-        {
-            for (const auto word : line)
-            {
-                cout << word << " ";
-            }
-            cout << endl;
-            count++;
-        }
+        count += test_line(line);
     }
 
     printf("Count: %d\n", count);
