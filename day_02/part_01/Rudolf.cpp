@@ -1,5 +1,5 @@
 //
-// Created by micro on 05.12.2024.
+// Created by felvmel on 05.12.2024.
 //
 
 #include <fstream>
@@ -67,7 +67,7 @@ int test_line(const vector<int>& line)
     return 1;
 }
 
-set<vector<int>> lines = get_lines("day_02/part_01/input");
+set<vector<int>> lines = get_lines("day_02/input");
 int main(int argc, char* argv[])
 {
     int count = 0;
