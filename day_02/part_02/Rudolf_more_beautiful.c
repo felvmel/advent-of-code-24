@@ -112,11 +112,11 @@ int test_line(const int* line, const bool removed)
                 {
                     return 1;
                 }
-                if (test_line(remove_index(line, i), true) == 1)
+                if (test_line(remove_index(line, i), true))
                 {
                     return 1;
                 }
-                if (test_line(remove_index(line, i + 1), true) == 1)
+                if (test_line(remove_index(line, i + 1), true))
                 {
                     return 1;
                 }
@@ -134,7 +134,7 @@ int main()
 
     for (int count = 0; count < length_lines; count++)
     {
-        if (test_line(lines[count], false) == 1)
+        if (test_line(lines[count], false))
         {
             counter++;
         }
