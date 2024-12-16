@@ -276,3 +276,18 @@ cython_debug/
 *.exe
 *.out
 *.app
+
+# Rust
+.idea
+.fleet
+*.iml
+.gradle
+bin/
+gen/
+deps/
+exampleProject
+testData
+.DS_Store
+/pretty_printers_tests/target
+/native-helper/target
+/attributes-info/target
